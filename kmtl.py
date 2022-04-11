@@ -1,4 +1,19 @@
-import os,sys
+import os,sys,json
+from time import sleep
+import os,sys,time,random
+
+
+def xenz(s):
+
+    for c in s + '\n':
+
+        sys.stdout.write(c)
+
+        sys.stdout.flush()
+
+        time.sleep(random.random() * 0.01)
+        
+
 
 logo="""
  \033[1;31m██╗  ██╗     ███████╗██████╗  █████╗ ███╗   ███╗
