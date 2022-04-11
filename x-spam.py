@@ -112,23 +112,7 @@ def xenz(s):
 
         time.sleep(random.random() * 0.01)
         
-        
-logo="""
- \033[1;31m██╗  ██╗     ███████╗██████╗  █████╗ ███╗   ███╗
- \033[1;31m╚██╗██╔╝     ██╔════╝██╔══██╗██╔══██╗████╗ ████║
- \033[1;31m ╚███╔╝█████╗███████╗██████╔╝███████║██╔████╔██║
- \033[1;31m ██╔██╗╚════╝╚════██║██╔═══╝ ██╔══██║██║╚██╔╝██║
- \033[1;31m██╔╝ ██╗     ███████║██║     ██║  ██║██║ ╚═╝ ██║
- \033[1;31m╚═╝  ╚═╝     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝
-"""
-logo1="""
- \033[1;36m██╗  ██╗     ███████╗██████╗  █████╗ ███╗   ███╗
- \033[1;36m╚██╗██╔╝     ██╔════╝██╔══██╗██╔══██╗████╗ ████║
- \033[1;36m ╚███╔╝█████╗███████╗██████╔╝███████║██╔████╔██║
- \033[1;36m ██╔██╗╚════╝╚════██║██╔═══╝ ██╔══██║██║╚██╔╝██║
- \033[1;36m██╔╝ ██╗     ███████║██║     ██║  ██║██║ ╚═╝ ██║
- \033[1;36m╚═╝  ╚═╝     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝
-"""
+
 logo2 ="""
  \033[1;33m██╗  ██╗     ███████╗██████╗  █████╗ ███╗   ███╗
  \033[1;34m╚██╗██╔╝     ██╔════╝██╔══██╗██╔══██╗████╗ ████║
@@ -148,19 +132,6 @@ logo2 ="""
 
 \n"""
 
-xenz(logo)
-xenz_ganz('  \n\n  \033[1;31m PERHATIAN !! \n\n[√] Gw Buat Tools ini hanya bertujuan\n    untuk bersenang-senang tetapi tidak\n    diperuntukan melakukan tindakan kejahatan!!\n    Jadi gunakan dengan bijak Yaa...')
-print("                                                ")
-sleep(3)
-__import__("os").system("clear")
-xenz(logo1)
-xenz_ganz("\033[1;36m Follow Fb Gw Dulu Stah >_< \n Jangan Cuma Pakai Toolsnya Doang :v ")
-sleep(7)
-__import__("os").system("clear")
-os.system("termux-open-url  https://www.facebook.com/profile.php?id=100078919720019 ")
-print("")
-sleep(3)
-__import__("os").system("clear")
 xenz(logo2)
 print (" \033[1;36m")
 while True:
