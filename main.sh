@@ -1,4 +1,4 @@
 #!/bin/bash/sh
 git pull
 
-pythom x-spam.py
+python x-spam.py
