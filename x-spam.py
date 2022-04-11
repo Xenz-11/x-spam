@@ -149,7 +149,7 @@ while True:
 	except Exception as ex:exit(str(ex))
 	except (KeyboardInterrupt,EOFError):exit("\033[1;31m[!] Keluar ! Thanks Udah Pakai Tolls Gw\n    Salam Dari @Xenz\033[1;37m")
 
-xenzz = input"Mau Spam Lagi Stah? y/t : "
+xenzz = input("Mau Spam Lagi Stah? (y/t) : ")
 if (xenzz == "y"):
     python x-spam.py
 if (xenzz == "t"):
