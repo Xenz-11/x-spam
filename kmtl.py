@@ -2,7 +2,15 @@ import os,sys,json
 from time import sleep
 import os,sys,time,random
 
+def xenz_ganz(s):
 
+    for c in s + '\n':
+
+        sys.stdout.write(c)
+
+        sys.stdout.flush()
+
+        time.sleep(random.random() * 0.1)
 def xenz(s):
 
     for c in s + '\n':
