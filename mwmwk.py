@@ -29,7 +29,7 @@ logo1="""
  \033[1;36m██╔╝ ██╗     ███████║██║     ██║  ██║██║ ╚═╝ ██║
  \033[1;36m╚═╝  ╚═╝     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝
 """
-
+xenz(logo1)
 xenz_ganz("\033[1;36m Follow Fb Gw Dulu Stah >_< \n Jangan Cuma Pakai Toolsnya Doang :v ")
 sleep(7)
 __import__("os").system("clear")
