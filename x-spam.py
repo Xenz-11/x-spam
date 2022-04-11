@@ -128,7 +128,7 @@ logo2 ="""
  \033[1;32m • KETIK NOMOR DARI ANGKA 0 STAH
  \033[1;32m • Contoh  = 08xxxxx
  \033[1;32m • Ketik CTRL+C Untuk Keluar
- \033[1;32m • Ketik python Spam.py untuk nyepam lagi !
+ \033[1;32m • Ketik python x-spam.py untuk nyepam lagi !
 
 \n"""
 
@@ -148,3 +148,11 @@ while True:
 			break
 	except Exception as ex:exit(str(ex))
 	except (KeyboardInterrupt,EOFError):exit("\033[1;31m[!] Keluar ! Thanks Udah Pakai Tolls Gw\n    Salam Dari @Xenz\033[1;37m")
+
+xenzz = input"Mau Spam Lagi Stah? y/t : "
+if (xenzz == "y"):
+    python x-spam.py
+if (xenzz == "t"):
+    os.system("clear")
+else:
+    print ("Pilih Yang Bener Stahh :)")
