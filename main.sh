@@ -30,6 +30,11 @@ python kmtl.py
 python mwmwk.py
 python x-spam.py
 bash lagi.sh
+fi
+if [ $xenz == ]
+then
+echo -e $M"Jangan Kosong"
+bash main.sh
 else
 echo -e $M"Pilihan Tidak Tersedia"
 bash main.sh
