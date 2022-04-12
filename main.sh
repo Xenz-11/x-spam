@@ -31,11 +31,15 @@ python mwmwk.py
 python x-spam.py
 bash lagi.sh
 fi
-if [ $xenz == "" ]
+if [ $xenz == ]
 then
-echo -e $M"Jangan Kosong"
+echo ""
+echo -e $M"(!) Jangan Kosong"
+sleep 1
 bash main.sh
 else
-echo -e $M"Pilihan Tidak Tersedia"
+echo ""
+echo -e $M"(!) Pilihan Tidak Tersedia"
+sleep 1
 bash main.sh
 fi
