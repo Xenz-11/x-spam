@@ -27,6 +27,7 @@ pkg install python2
 pip install requests
 clear
 python2 code.py
+clear
 python kmtl.py
 python mwmwk.py
 python x-spam.py
