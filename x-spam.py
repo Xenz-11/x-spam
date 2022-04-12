@@ -127,8 +127,7 @@ logo2 ="""
 \033[1;37m
  \033[1;32m • KETIK NOMOR DARI ANGKA 0 STAH
  \033[1;32m • Contoh  = 08xxxxx
- \033[1;32m • Ketik CTRL+C Untuk Keluar
- \033[1;32m • Ketik python x-spam.py untuk nyepam lagi !
+ \033[1;32m • Ketik CTRL+C Untuk Berhenti Spam
 
 \n"""
 
