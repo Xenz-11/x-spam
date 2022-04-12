@@ -135,7 +135,7 @@ xenz(logo2)
 print (" \033[1;36m")
 while True:
 	try:
-		a=input("Nomor Target :  ")
+		a=input("Nomor Target ~>  ")
 		asu=a[0:2]
 		if a in(""," "):print("\033[1;36mSpam Berhasil Terkirim ✓")
 		elif "08" not in asu:print("[!] Gunakan Nomer Dengan Awalan 08xxx Stahh ^_^")
