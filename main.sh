@@ -31,7 +31,7 @@ python mwmwk.py
 python x-spam.py
 bash lagi.sh
 fi
-if [ $xenz == ]
+if [ $xenz == "" ]
 then
 echo -e $M"Jangan Kosong"
 bash main.sh
