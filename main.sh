@@ -13,6 +13,7 @@ echo -e $I"Oke Stah..."
 sleep 2
 clear
 python2 code.py
+clear
 python kmtl.py
 python mwmwk.py
 python x-spam.py
