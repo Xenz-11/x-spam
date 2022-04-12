@@ -6,3 +6,6 @@ bash main.sh
 ```
 # SCREENTOD
 ![CAPTURE1](https://github.com/Xenz-11/x-spam/blob/main/screentod/X-SPAM.JPG)
+# Username && Password
+> Username : Xenz
+> Password : Gans
