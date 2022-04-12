@@ -1,12 +1,15 @@
 #!/bin/bash/sh
+
+M='\033[31m'
+I='\033[32m'
 git pull
 clear
 
-
+echo -e $I""
 read -p "Sudah Install Bahan Belum Stah... [s/b]" xenz
 if [ $xenz == s ]
 then
-echo "Oke Stah..."
+echo -e $I"Oke Stah..."
 sleep 2
 clear
 python2 code.py
@@ -28,5 +31,6 @@ python mwmwk.py
 python x-spam.py
 bash lagi.sh
 else
-echo "Pilihan Tidak Tersedia"
+echo -e $M"Pilihan Tidak Tersedia"
+bash main.sh
 fi
