@@ -1,6 +1,9 @@
 #!/bin/bash/sh
 
-read -p "Mau Lagi Stahh? [y/t] : " xenz
+K='\033[1;33m'
+I='\033[1;32m'
+echo -e $K""
+read -p "[+] Mau Lagi Stahh? [y/t] : " xenz
 
 if [ $xenz == y ]
 then
@@ -10,7 +13,7 @@ fi
 if [ $xenz == t ]
 then
 clear
-echo "Oke Stah Makasih Dah Di Pake Sc Gw :)"
+echo -e $I"Oke Stah Makasih Dah Di Pake Sc Gw :)"
 sleep 3
 clear
 exit
