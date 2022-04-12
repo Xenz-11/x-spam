@@ -6,7 +6,7 @@ git pull
 clear
 
 echo -e $I""
-read -p "Sudah Install Bahan Belum Stah... [s/b]" xenz
+read -p "Sudah Install Bahan Belum Stah... [s/b] ~> " xenz
 if [ $xenz == s ]
 then
 echo -e $I"Oke Stah..."
